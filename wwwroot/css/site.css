@@ -1,0 +1,168 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-family: 'Arial Narrow', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.nav-item {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+
+.display-4 {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+    p.name {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: snow;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        color: black;
+        font-weight: bold;
+    }
+span {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Arial Narrow', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content {
+    margin: 70px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: blue;
+}
+
+h1.tieude {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.navbar-expand-sm .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: pink;
+}
+.footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.container {
+    color: white;
+}
+input[type="text"]:focus {
+    width: 300px;
+    background-color: greenyellow;
+}
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    padding: 12px 14px;
+    transition: 0.6s ease-in-out;
+}
+.btn {
+    float: right;
+    margin-top: 10px;
+}
+btn.about {
+    width: 100%;
+    float: left;
+}

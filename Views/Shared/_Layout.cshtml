@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SteamGame</title>
+    <link rel="shortcut icon" href="https://e7.pngegg.com/pngimages/699/999/png-clipart-brand-logo-steam-gump-s.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SteamGame</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="First" asp-action="Index">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Games" asp-action="Index">Create</a>
+                        </li>
+                       <!--
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
+                        </li> 
+                           -->
+                    </ul>
+                </div>
+
+              
+            
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="content">
+        <div class="item">
+            <a href="https://cdn.akamai.steamstatic.com/steam/apps/256793553/movie480_vp9.webm?t=1595992300"><img src="https://cdn.tgdd.vn//GameApp/1305640//pubg-800x450-1.jpg" /></a>
+             <a href="#"><p class="name">PlayerUnknown's Battlegrounds</p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="https://cdn.akamai.steamstatic.com/steam/apps/256875161/movie480_vp9.webm?t=1645568037"><img src="https://www.anphatpc.com.vn/media/news/2205_Destiny-2-udpate.jpg.jpg" /></a>
+            <a href="#"><p class="name">Destiny 2</p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://link-hay.com/wp-content/uploads/2021/08/gta-5-viet-hoa.jpg" /></a>
+            <a href="#"><p class="name">Grand Theft Auto V</p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="https://cdn.akamai.steamstatic.com/steam/apps/5952/movie480.webm?t=1447353587"><img src="https://softbuzz.net/wp-content/uploads/2021/02/image1.png" /></a>
+            <a href="#"><p class="name"> Left 4 Dead 2 </p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="https://cdn.akamai.steamstatic.com/steam/apps/81958/movie480.webm?t=1554409259"><img src="http://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6" /></a>
+            <a href="#"><p class="name">Counter-Strike: Global Offensive</p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://cyberxanh.vn/wp-content/uploads/2021/11/cau-hinh-Rust-tren-PC-can-moi-tua-game-dinh-cao-1.jpg" /></a>
+            <a href="#"><p class="name">Rust</p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="https://cdn.akamai.steamstatic.com/steam/apps/256658589/movie480.webm?t=1528288687"><img src="https://br.atsit.in/vi/wp-content/uploads/2021/10/the-witcher-3-wild-hunt-game-of-the-year-edition-duoc-xep-hang-cho-ps5-va-xbox-series-x-s-o-chau-au-tin-tuc-co-the-sap-ra-mat.jpg" /></a>
+            <a href="#"><p class="name">The Witcher 3: Wild Hunt</p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://image.thanhnien.vn/w1024/Uploaded/2022/gftsy/2020_12_10/lmhtbluestacks6_rnvu.jpg" /></a>
+            <a href="#"><p class="name">League of Legends: Wild Rift </p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://uptopico.com/upload/blog/cover/60df858609b50.jpg" /></a>
+            <a href="#"><p class="name">War Thunder </p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://external-preview.redd.it/Z09d5HE-7zkF86aE6hqOoqYnw8MEs7hY17WafppmK7E.jpg?width=640&crop=smart&auto=webp&s=9b9e5797d40f906f754842ce922c47bffde38e7d" /></a>
+            <a href="#"><p class="name">World of Warships</p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://cdn.images.express.co.uk/img/dynamic/143/750x445/1442590.jpg" /></a>
+            <a href="#"><p class="name">Fifa 21 </p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://cdn.tgdd.vn/2020/07/content/cach-tai-crossfire-dot-kich-phien-ban-moi-vtc-online-don-gian-thumbzz-800x450.jpg" /></a>
+            <a href="#"><p class="name">Cross Fire </p></a>
+            <p class="name">Giá: 30$</p>
+        </div>
+
+    </div>
+
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+           
+                Copyright &copy; 2022 - SteamGame - Trương Thiên Thạch
+                <a href="https://www.facebook.com/stone.god.1/" class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3 btn">
+                    Stone
+                </a>
+
+                <a href="https://www.facebook.com/stone.god.1/" class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3 btn">
+                    About Us
+                </a>
+
+                <a href="https://www.google.com/" class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3 btn">
+                    Support
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCdcZu2bToI1MA-1gTmHDlyw" class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3 btn">
+                    Youtube
+                </a>
+
+            </div>
+       
+       
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
